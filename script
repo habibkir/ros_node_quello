@@ -1,0 +1,12 @@
+#! /usr/bin/bash
+
+rosrun nodus nodus_nodo_qualcosa &
+rosrun recievus recievus_node
+
+# questo dovrebbe essere piu' una (pessima) approssimazione di che fa roslaunch
+# ma non ho ancora visto come usare roslaunch
+# quindi se vuoi runnare entrambi i nodi nella stessa shell fai
+
+# roscore & (se non lo hai gia' fatto)
+# chmod u+x script (nella cartella dove sta lo script)
+# ./script (nella cartella dove sta lo script)
